@@ -9,7 +9,7 @@ from pathlib import Path
 
 class MongoTrafficImporter:
     def __init__(self, uri: str = None):
-        self.uri = uri or "mongodb+srv://user_1:admin@cluster0.epb2tkz.mongodb.net/?appName=Cluster0"
+        self.uri = uri or "mongodb+srv://<username>:<pass>@cluster0.epb2tkz.mongodb.net/?appName=Cluster0"
         self.client = None
         self.db = None
         self.collection = None
