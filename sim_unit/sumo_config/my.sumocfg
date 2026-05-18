@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="my.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+        <additional-files value="intersection_lights.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="4171"/>
+    </time>
+</configuration>

@@ -1,0 +1,10 @@
+<edges>
+  <edge id="N2C" from="n" to="center" numLanes="2" sidewalkWidth="1.5"/>
+  <edge id="C2S" from="center" to="s" numLanes="2" sidewalkWidth="1.5"/>
+  <edge id="S2C" from="s" to="center" numLanes="2" sidewalkWidth="1.5"/>
+  <edge id="C2N" from="center" to="n" numLanes="2" sidewalkWidth="1.5"/>
+  <edge id="E2C" from="e" to="center" numLanes="1" allow="pedestrian" width="1.5"/>
+  <edge id="C2W" from="center" to="w" numLanes="1" allow="pedestrian" width="1.5"/>
+  <edge id="W2C" from="w" to="center" numLanes="1" allow="pedestrian" width="1.5"/>
+  <edge id="C2E" from="center" to="e" numLanes="1" allow="pedestrian" width="1.5"/>
+</edges>
