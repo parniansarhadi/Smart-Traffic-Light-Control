@@ -7,7 +7,7 @@ from pathlib import Path
 
 class MongoResultsExporter:
     def __init__(self, uri: str = None):
-        self.uri = uri or "mongodb+srv://s342417_db_user:65WzSzIswIgCdMVk@simdb.ur42hy8.mongodb.net/?appName=simDB"
+        self.uri = uri or "mongodb+srv://<username>:<pass>@simdb.ur42hy8.mongodb.net/?appName=simDB"
         self.client = None
         self.db = None
         self.collection = None
