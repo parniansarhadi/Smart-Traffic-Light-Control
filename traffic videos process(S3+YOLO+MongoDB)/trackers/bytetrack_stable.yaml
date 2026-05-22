@@ -1,0 +1,9 @@
+# Stable tracking profile for traffic scenes with occlusion.
+# Keeps IDs alive longer to reduce ID fragmentation and box flicker.
+tracker_type: bytetrack
+track_high_thresh: 0.30
+track_low_thresh: 0.10
+new_track_thresh: 0.30
+track_buffer: 150
+match_thresh: 0.85
+fuse_score: True

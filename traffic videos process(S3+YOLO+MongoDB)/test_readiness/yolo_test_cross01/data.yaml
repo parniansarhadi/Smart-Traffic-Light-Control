@@ -1,0 +1,14 @@
+path: /Users/markus/Documents/traffic/traffic_light_control/test_readiness/yolo_test_cross01/traffic_dataset
+train: images/val
+val: images/val
+test: images/val
+
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: airplane
+  5: bus
+  6: train
+  7: truck

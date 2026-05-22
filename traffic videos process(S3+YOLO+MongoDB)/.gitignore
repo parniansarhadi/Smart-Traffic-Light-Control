@@ -1,0 +1,72 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS metadata
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+tea_debug.log
+
+# Test and experiment outputs
+output/
+runs/
+wandb/
+
+# Generated caches and temporary files
+*.cache
+*.cache/
+*.tmp
+*.swp
+
+# Large model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Video and raw media files
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.mkv
+*.h264
+
+# Generated images and plots
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.pkl
+
+# Raw data and derived test assets
+data/polito_cross_01/
+data/polito_cross_02/
+test_readiness/**/test_frames*/
+test_readiness/**/test_labels*/
+test_readiness/**/traffic_dataset/labels/*.cache
+test_readiness/**/plots/
+test_readiness/**/results.csv
+
+# Keep source helpers tracked
+!data/check_fps.py
+!data/**/config.json
+!test_readiness/**/*.py
+!test_readiness/**/data.yaml

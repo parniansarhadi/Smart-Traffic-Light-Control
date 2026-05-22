@@ -1,0 +1,35 @@
+{
+    "metadata": {
+        "intersection_id": "Turin_Standard_Cross_01",
+        "camera_id": "001",
+        "resolution": [1920, 1080]
+    },
+    "spatial_rois": {
+        "vehicles": [
+            {
+                "direction_id": "SOUTHTONORTH",
+                "polygon": [[150, 600], [450, 600], [550, 1080], [50, 1080]]
+            },
+            {
+                "direction_id": "NORTHTOSOUTH",
+                "polygon": [[500, 600], [800, 600], [950, 1080], [600, 1080]]
+            }
+        ],
+        "pedestrians": [
+            {
+                "direction_id": "EASTTOWEST",
+                "polygon": [[0, 450], [1920, 450], [1920, 520], [0, 520]]
+            },
+            {
+                "direction_id": "WESTTOEAST",
+                "polygon": [[0, 550], [1920, 550], [1920, 620], [0, 620]]
+            }
+        ],
+        "traffic_lights": [
+            {
+                "direction_id": "SOUTHTONORTH",
+                "polygon": [[850, 150], [900, 150], [900, 300], [850, 300]]
+            }
+        ]
+    }
+}
