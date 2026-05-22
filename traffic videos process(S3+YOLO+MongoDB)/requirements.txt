@@ -1,0 +1,12 @@
+# Core runtime dependencies
+numpy
+opencv-python
+ultralytics
+PyYAML
+
+# Cloud / integrations
+boto3
+pymongo[srv]
+
+# Experiment / test utilities
+wandb
